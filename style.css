@@ -3,11 +3,11 @@
     padding:0;
 }
 body{
-    background-color: red;
+    background-color: rgb(244, 230, 230);
     overflow: hidden;
 }
 .gameContainer{
-    background-image: url(bg.png);
+    background-image: url(bg1.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     width: 100%;
@@ -48,17 +48,20 @@ body{
     top:63px;
     font-size: 53px;
     text-align: center; 
+    
+    color: rgb(226, 233, 239);
+  
     font-family: 'Ubuntu', sans-serif;
 }
 
 #scoreCont{
     font-size: 25px;
-    color: #54212f;
+    color: #f2eaec;
     font-weight: bold;
     position: absolute;
     right: 45px;
     top: 31px;
-    border: 2px solid black;
+    border: 2px solid rgb(182, 167, 167);
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
